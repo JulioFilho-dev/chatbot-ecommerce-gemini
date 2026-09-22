@@ -1,10 +1,15 @@
+import os
 import json
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-def carregar_produtos(caminho="data/produtos.json"):
+
+def carregar_produtos(caminho=None):
+    if caminho is None:
+        caminho = os.path.join(BASE_DIR, "data", "produtos.json")
     with open(caminho, "r", encoding="utf-8") as f:
         return json.load(f)
 
