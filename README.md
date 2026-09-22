@@ -40,3 +40,25 @@ Chatbot de atendimento para loja de roupas, capaz de consultar produtos, preços
 ```
 
 4. Crie um arquivo `.env` na raiz com sua chave da API do Gemini:
+GEMINI_API_KEY=sua_chave_aqui
+ (obtenha uma gratuitamente em https://aistudio.google.com/apikey)
+
+5. Rode a interface:
+```bash
+   streamlit run app.py
+```
+
+## Estrutura do projeto
+chatbot-ecommerce/
+├── data/
+│ └── produtos.json # base de produtos da loja
+├── retrieval.py # lógica de RAG (busca de produtos relevantes)
+├── chatbot.py # integração com o Gemini
+├── app.py # interface de chat (Streamlit)
+├── .env # chave da API (não versionado)
+└── .gitignore
+
+
+## Autor
+
+Júlio César Cavalcanti Moura Filho
