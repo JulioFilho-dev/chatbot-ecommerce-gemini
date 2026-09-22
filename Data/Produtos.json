@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "nome": "Camiseta Básica Branca",
+    "categoria": "Camisetas",
+    "descricao": "Camiseta 100% algodão, corte reto, gola redonda. Ideal para o dia a dia.",
+    "preco": 49.90,
+    "tamanhos": ["P", "M", "G", "GG"],
+    "estoque": 35
+  },
+  {
+    "id": 2,
+    "nome": "Calça Jeans Skinny",
+    "categoria": "Calças",
+    "descricao": "Calça jeans skinny, com elastano para maior conforto, lavagem escura.",
+    "preco": 129.90,
+    "tamanhos": ["36", "38", "40", "42"],
+    "estoque": 12
+  },
+  {
+    "id": 3,
+    "nome": "Jaqueta Corta-Vento",
+    "categoria": "Jaquetas",
+    "descricao": "Jaqueta leve e impermeável, ideal para dias de chuva ou vento.",
+    "preco": 189.90,
+    "tamanhos": ["M", "G"],
+    "estoque": 0
+  },
+  {
+    "id": 4,
+    "nome": "Moletom Canguru Cinza",
+    "categoria": "Moletons",
+    "descricao": "Moletom com capuz e bolso frontal tipo canguru, tecido flanelado por dentro.",
+    "preco": 159.90,
+    "tamanhos": ["P", "M", "G", "GG"],
+    "estoque": 20
+  },
+  {
+    "id": 5,
+    "nome": "Bermuda Sarja Bege",
+    "categoria": "Bermudas",
+    "descricao": "Bermuda de sarja, corte reto, ideal para o verão. Tecido resistente e confortável.",
+    "preco": 89.90,
+    "tamanhos": ["38", "40", "42", "44"],
+    "estoque": 18
+  },
+  {
+    "id": 6,
+    "nome": "Vestido Midi Floral",
+    "categoria": "Vestidos",
+    "descricao": "Vestido midi estampado floral, manga curta, tecido leve e fluido.",
+    "preco": 139.90,
+    "tamanhos": ["P", "M", "G"],
+    "estoque": 8
+  },
+  {
+    "id": 7,
+    "nome": "Tênis Casual Branco",
+    "categoria": "Calçados",
+    "descricao": "Tênis casual em couro sintético, solado emborrachado, combina com qualquer look.",
+    "preco": 219.90,
+    "tamanhos": ["38", "39", "40", "41", "42"],
+    "estoque": 5
+  },
+  {
+    "id": 8,
+    "nome": "Camisa Social Slim",
+    "categoria": "Camisas",
+    "descricao": "Camisa social de manga longa, corte slim fit, tecido de fácil manutenção.",
+    "preco": 149.90,
+    "tamanhos": ["P", "M", "G", "GG"],
+    "estoque": 0
+  },
+  {
+    "id": 9,
+    "nome": "Shorts Moletom Preto",
+    "categoria": "Shorts",
+    "descricao": "Shorts de moletom com cordão no cós, bolsos laterais, ótimo para uso casual.",
+    "preco": 69.90,
+    "tamanhos": ["P", "M", "G"],
+    "estoque": 25
+  },
+  {
+    "id": 10,
+    "nome": "Blazer Alfaiataria Preto",
+    "categoria": "Blazers",
+    "descricao": "Blazer estruturado de alfaiataria, forro interno, ideal para looks mais formais.",
+    "preco": 259.90,
+    "tamanhos": ["P", "M", "G"],
+    "estoque": 3
+  },
+  {
+    "id": 11,
+    "nome": "Camiseta Estampada Retrô",
+    "categoria": "Camisetas",
+    "descricao": "Camiseta com estampa retrô, tecido macio, ótima para looks casuais do dia a dia.",
+    "preco": 59.90,
+    "tamanhos": ["P", "M", "G", "GG"],
+    "estoque": 22
+  },
+  {
+    "id": 12,
+    "nome": "Saia Midi Plissada",
+    "categoria": "Saias",
+    "descricao": "Saia midi plissada, cintura alta, tecido leve com caimento fluido.",
+    "preco": 109.90,
+    "tamanhos": ["P", "M", "G"],
+    "estoque": 14
+  },
+  {
+    "id": 13,
+    "nome": "Boné Aba Curva Preto",
+    "categoria": "Acessórios",
+    "descricao": "Boné em sarja, aba curva, fecho ajustável, unissex.",
+    "preco": 39.90,
+    "tamanhos": ["Único"],
+    "estoque": 40
+  },
+  {
+    "id": 14,
+    "nome": "Suéter Tricô Bege",
+    "categoria": "Suéteres",
+    "descricao": "Suéter de tricô, gola redonda, ideal para dias mais frios, tecido macio e quentinho.",
+    "preco": 149.90,
+    "tamanhos": ["P", "M", "G", "GG"],
+    "estoque": 9
+  },
+  {
+    "id": 15,
+    "nome": "Vestido Longo Estampado",
+    "categoria": "Vestidos",
+    "descricao": "Vestido longo com estampa tropical, alças finas, tecido leve, perfeito para o verão.",
+    "preco": 169.90,
+    "tamanhos": ["P", "M", "G"],
+    "estoque": 6
+  },
+  {
+    "id": 16,
+    "nome": "Sandália Rasteira Trançada",
+    "categoria": "Calçados",
+    "descricao": "Sandália rasteira com tiras trançadas, solado confortável, ideal para o dia a dia.",
+    "preco": 79.90,
+    "tamanhos": ["35", "36", "37", "38", "39"],
+    "estoque": 17
+  },
+  {
+    "id": 17,
+    "nome": "Regata Canelada Branca",
+    "categoria": "Camisetas",
+    "descricao": "Regata canelada, tecido com leve elasticidade, corte justo ao corpo.",
+    "preco": 44.90,
+    "tamanhos": ["P", "M", "G"],
+    "estoque": 0
+  },
+  {
+    "id": 18,
+    "nome": "Casaco de Lã Longo",
+    "categoria": "Casacos",
+    "descricao": "Casaco de lã longo, corte reto, forro interno, ideal para o inverno.",
+    "preco": 289.90,
+    "tamanhos": ["M", "G", "GG"],
+    "estoque": 4
+  },
+  {
+    "id": 19,
+    "nome": "Cinto de Couro Marrom",
+    "categoria": "Acessórios",
+    "descricao": "Cinto de couro legítimo, fivela metálica, combina com calças e vestidos.",
+    "preco": 69.90,
+    "tamanhos": ["Único"],
+    "estoque": 28
+  },
+  {
+    "id": 20,
+    "nome": "Legging Fitness Preta",
+    "categoria": "Fitness",
+    "descricao": "Legging fitness com tecido respirável e alta compressão, cintura alta.",
+    "preco": 89.90,
+    "tamanhos": ["P", "M", "G", "GG"],
+    "estoque": 31
+  }
+]
