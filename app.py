@@ -27,22 +27,19 @@ for msg in st.session_state.mensagens:
     with st.chat_message(msg["role"], avatar=avatar):
         st.markdown(msg["content"])
 
-if len(st.session_state.mensagens) == 1:
-    st.write("Sugestões:")
-    col1, col2, col3 = st.columns(3)
-    sugestao_clicada = None
+st.write("Sugestões:")
+col1, col2, col3 = st.columns(3)
+sugestao_clicada = None
 
-    with col1:
-        if st.button("📋 Ver catálogo"):
-            sugestao_clicada = "Qual é o catálogo de produtos?"
-    with col2:
-        if st.button("💰 Mais barato"):
-            sugestao_clicada = "Qual o produto mais barato?"
-    with col3:
-        if st.button("👖 Calças jeans"):
-            sugestao_clicada = "Vocês têm calça jeans?"
-else:
-    sugestao_clicada = None
+with col1:
+    if st.button("📋 Ver catálogo"):
+        sugestao_clicada = "Qual é o catálogo de produtos?"
+with col2:
+    if st.button("💰 Mais barato"):
+        sugestao_clicada = "Qual o produto mais barato?"
+with col3:
+    if st.button("👖 Calças jeans"):
+        sugestao_clicada = "Vocês têm calça jeans?"
 
 pergunta = st.chat_input("Digite sua pergunta...")
 
